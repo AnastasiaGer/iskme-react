@@ -1,0 +1,25 @@
+.library_wrapper {
+  padding: 25px;
+  position: relative;
+}
+
+.library {
+  position: fixed;
+  width: inherit;
+}
+
+.back_link {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.back_link,
+.library_title {
+  margin-bottom: 20px;
+}
+
+.back_link_img {
+  display: inline;
+  margin-right: 10px;
+}

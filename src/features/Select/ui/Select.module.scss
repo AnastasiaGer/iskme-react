@@ -1,0 +1,19 @@
+.Select {
+  display: flex;
+  flex-direction: row;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  flex-wrap: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+.Select p {
+  padding: 10px 15px;
+}
+
+.select {
+  height: 40px;
+  border-radius: 15px;
+  padding: 10px 15px;
+  border: none;
+}

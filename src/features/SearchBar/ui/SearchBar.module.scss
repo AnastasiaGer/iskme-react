@@ -1,0 +1,25 @@
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
+.Searchbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 500px;
+  margin-bottom: 25px;
+}
+
+.search_icon {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.input {
+  width: 500px;
+  padding: 10px 15px;
+  padding-left: 45px;
+  border: none;
+  border-radius: 15px;
+}

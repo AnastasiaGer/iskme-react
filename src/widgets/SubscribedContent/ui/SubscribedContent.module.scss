@@ -1,0 +1,45 @@
+.list_tabs {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.list_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 35px;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  cursor: pointer;
+  background: inherit;
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.list_btn .active {
+  background: inherit;
+  color: #000;
+  border-bottom: 2px solid #0052cc;
+  outline: none;
+}
+
+.list_icon {
+  display: inline-block;
+  width: 22px;
+  margin-right: 5px;
+}
+
+.search_block {
+  display: flex;
+  flex-direction: row;
+  font-weight: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

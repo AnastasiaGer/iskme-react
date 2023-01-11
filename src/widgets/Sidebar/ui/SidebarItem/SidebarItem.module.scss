@@ -1,0 +1,27 @@
+.inactive {
+  display: flex;
+  width: 90%;
+  padding: 15px;
+  text-decoration: none;
+  color: #373a48;
+  box-sizing: border-box;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #373a48;
+  fill: #373a48;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.active {
+  display: flex;
+  width: 90%;
+  padding: 15px;
+  text-decoration: none;
+  color: var(--text-color);
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 22px #ababab, -5px -5px 22px #ffffff;
+}

@@ -1,0 +1,47 @@
+/* stylelint-disable color-hex-length */
+.item_card {
+  height: 200px;
+  width: 250px;
+  top: 0;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 22px #ababab, -5px -5px 22px #ffffff;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.item_card a {
+  text-decoration: none;
+}
+
+.item_img_wrapper {
+  position: relative;
+  height: 150px;
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.item_img_wrapper img {
+  background-size: cover;
+  transition: transform 1.5s ease-in-out;
+  filter: brightness(0.5);
+}
+
+.item_img_wrapper:hover img {
+  transform: scale(1.3);
+}
+
+.item_name {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  color: #ffffff;
+}
+
+.site_name {
+  text-decoration: none;
+}
